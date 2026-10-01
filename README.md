@@ -1,5 +1,5 @@
 # 🗺️ GeoMap - Interactive PHP & MySQL Location Tracker
-
+![App Preview](Pagina_Map.png)
 A web-based geospatial management system built with **PHP**, **MySQL**, and **Google Maps JavaScript API**. The application provides secure user authentication, persistent session tracking, and an interactive interface for pinning and managing custom geographic coordinates with descriptive markers.
 
 ---
