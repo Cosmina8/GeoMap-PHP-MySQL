@@ -1,0 +1,95 @@
+/* ===========================
+   MAP PAGE - FINAL VERSION
+   =========================== */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        180deg,
+        #fee7f0 0%,
+        #fee7f0 30%,
+        #e9f7f5 65%,
+        #c8f4f2 100%
+    );
+
+    background-attachment: fixed;
+}
+
+
+
+/* HARTA — încadrată ca restul site-ului (76% lățime totală) */
+
+#map {
+    width: 76%;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* FORMULAR DE ADAUGARE MARKER */
+
+#add-point-box {
+    width: 76%;
+    background: #ffffff;
+    padding: 25px;
+    margin: 30px auto 60px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+#add-point-box h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+#add-point-box label {
+    font-weight: 500;
+}
+
+#add-point-box input {
+    width: 260px;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#addPointBtn {
+    padding: 10px 22px;
+    border: none;
+    background: #4a4aff;
+    color: white;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#addPointBtn:hover {
+    background: #2d2dff;
+}
+
+#resultMsg {
+    margin-top: 10px;
+    color: #0a790a;
+    font-weight: 500;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+    #map,
+    #add-point-box {
+        width: 92%;
+    }
+
+    #map {
+        height: 400px;
+    }
+}
+
+
